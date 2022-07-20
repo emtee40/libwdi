@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\profile.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\zadig.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,10 +23,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\libwdi\msapi_utf8.h">
+    <ClInclude Include="..\..\common\msapi_utf8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\profile.h">
+    <ClInclude Include="..\..\common\profile\profile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\zadig_resource.h">

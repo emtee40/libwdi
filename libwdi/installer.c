@@ -1,6 +1,6 @@
 /*
  * Library for WinUSB/libusb automated driver installation
- * Copyright (c) 2010 Pete Batard <pbatard@gmail.com>
+ * Copyright (c) 2010-2011 Pete Batard <pete@akeo.ie>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -32,7 +32,7 @@
 
 #include "installer.h"
 #include "libwdi.h"
-#include "msapi_utf8.h"
+#include "../common/msapi_utf8.h"
 
 // DDK complains about checking a const string against NULL
 #if defined(DDKBUILD)
